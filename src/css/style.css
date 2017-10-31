@@ -315,15 +315,13 @@ body .jumbotron{
 /*end hover 6*/
 
 
-
 section #more{
-	margin-top: 30px;
+	margin: 50px;
 	font-size: 18px;
 	font-family: Quicksand;
 	color: #222626;
 }
 section #more:hover {
-	margin-top: 30px;
 	font-size: 18px;
 	font-family: Quicksand;
 	color: #585d5d;
