@@ -1,75 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
-	
-	<title>Hi, Andrick Here</title>
-
-	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
-	
-	<!-- Bootstrap -->
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
-	<!-- Icons -->
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-	<!-- Fonts -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
-	<!-- Custom styles -->
-	<link rel="stylesheet" href="assets/css/styles.css">
-
-	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+	<title>Hi, I'm Andric</title>
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+	<link rel="stylesheet" href="src/css/bootstrap.css">
+	<link rel="stylesheet" href="src/css/font-awesome.min.css">
 </head>
-<body class="home">
-
-<header id="header">
-	<div id="head" class="parallax" parallax-speed="2">
-		<h1 id="logo" class="text-center">
-			<img class="img-circle" src="assets/images/user.jpg" alt="">
-			<span class="title">Andri Sastro</span>
-			<span class="tagline">UI / UX Designer<br>
-				<a href="mailto:adandridiy@gmail.com">adandridiy@gmail.com</a></span>
-		</h1>
-	</div>
-
-	<nav class="navbar navbar-default navbar-sticky">
+<body>
+<!--	navbar-->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="topnav">
 		<div class="container-fluid">
-			
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			<div class="navbar-header" style="padding-left: 180px;">
+
+
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger" aria-expanded="false">
+				 ooo
+				</button>
+
+				<a href="" class="navbar-brand collapse navbar-collapse">masandric</a>
 			</div>
-			
-			<div class="navbar-collapse collapse">
-				
-				<ul class="nav navbar-nav">
-					<li><a href="https://dribbble.com/adandridiy">Dribbble</a></li>
-					<li><a href="https://twitter.com/adandridiy">Twittter</a></li>
-					<li><a href="https://www.behance.net/adandridiy">Behance</a></li>
-					<li><a href="https://adandridiy.wordpress.com/">Blog</a></li>
+
+			<div class="collapse navbar-collapse" id="hamburger">
+				<ul class="nav navbar-nav navbar-right" style="padding-right: 200px;">
+					<li><a href="">Be</a></li>
+					<li><a href="">Dr</a></li>
+					<li><a href="">Ln</a></li>
+					<li><a href="">Ig</a></li>
 				</ul>
-			
-			</div><!--/.nav-collapse -->			
-		</div>	
-	</nav>
-</header>
-
-<main id="main">
-
-	<div class="container">
-		
-		<div class="row section topspace">
-			<div class="col-md-12">
-				<p class="lead text-center text-muted">Hi, I'm Andrick 21 years old UX Designer. Keep in touch with me.</p>
 			</div>
-</main>
 
+		</div>
+	</nav>
+<!--	end of navbar-->
 
+<!--	jumbotron-->
+	<div class="jumbotron text-center">
+<!--		<img src="src/images/bghero.png" alt="" id="bghero" >-->
+		<img src="src/images/masandric.png" alt="" id="masan">
+		<p>A young, passionate who believe in using design as <br>a problem solving tool.</p>
 
+		<a href="#porto" class="page-scroll">
+			<img src="src/images/down.png" alt="" style=" height: 16px; position: relative;">
+		</a>
 
-<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="assets/js/template.js"></script>
+	</div>
+<!--    end of jumbotron-->
+
+<!--	portfolio-->
+	<section id="porto">
+		<div class="container" id="portfolio">
+			<div class="row">
+				<div class="col-sm-5 col-sm-offset-1" id="img-1">
+					<img src="src/images/01.jpg" class="img-thumbnail" >
+					<div class="overlay">
+						<div class="content-1">
+							<a> Singaporean Police Website <br>Redesign  </a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-5" id="img-2">
+					<img src="src/images/02.jpg" class="img-thumbnail">
+					<div class="overlay-2">
+						<div class="content-2">
+							<a> Simple Coozy Fish Field <br>Illustration  </a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-sm-5 col-sm-offset-1" id="img-3">
+					<img src="src/images/03.jpg" class="img-thumbnail">
+					<div class="overlay-3">
+						<div class="content-3">
+							<a> Simple Coozy Fish Field <br>Illustration  </a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-5" id="img-4">
+					<img src="src/images/04.jpg" class="img-thumbnail">
+					<div class="overlay-4">
+						<div class="content-4">
+							<a> Simple Coozy Fish Field <br>Illustration  </a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-sm-5 col-sm-offset-1" id="img-5">
+					<img src="src/images/01.jpg" class="img-thumbnail">
+					<div class="overlay-5">
+						<div class="content-5">
+							<a> Simple Coozy Fish Field <br>Illustration  </a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-5" id="img-6">
+					<img src="src/images/02.jpg" class="img-thumbnail">
+					<div class="overlay-6">
+						<div class="content-6">
+							<a> Simple Coozy Fish Field <br>Illustration  </a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<a href="" id="more"><p class="text-center" >more</p></a>
+	</section>
+<!--    end of portfolio-->
+
+<!--	footer-->
+	<section id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-1 ">
+					<p> Wanna grab a cup of coffee ? Or talk about your next amazing product ?
+					</p>
+				</div>
+				<div class="col-sm-2 col-sm-offset-2">
+					<a href="" id="conme" class="text-center">
+						<p>YEAH!</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--	end of footer-->
+
+<!--	copyright-->
+	<p class="text-center" id="copyright">masandric &#64;2017</p>
+<!--    end of cpyright-->
+<script src="src/js/jquery.1.8.3.min.js"></script>
+<script src="src/js/bootstrap.js"></script>
+<script src="src/js/script.js"></script>
 </body>
 </html>

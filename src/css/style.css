@@ -1,0 +1,368 @@
+.navbar .container-fluid{
+	border-top: 10px solid #040505;
+}
+
+.navbar button{
+	color: aliceblue;
+	padding-right: 20px;
+	padding-left: 20px;
+	border: none;
+}
+
+
+.navbar-brand{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+}
+
+#bghero{
+
+	margin-left: -64%;
+	max-width: 163%;
+	position: absolute;
+	white-space: nowrap;
+	opacity: .3;
+}
+
+#topnav{
+	background-color: rgba(17, 19,19,0.96);
+	font-family: Quicksand;
+	border-bottom: none;
+}
+
+body { background: #111313 !important; }
+
+body .jumbotron{
+	margin-top: 20px;
+	min-height: 400px;
+	background-color: #111313;
+
+}
+
+.jumbotron a{
+	height: 16px;
+	position: relative;
+}
+
+.jumbotron #masan{
+	margin-top: 110px;
+	height: 50px;
+	position: relative;
+
+}
+
+.jumbotron p{
+	margin-top: 65px;
+	margin-bottom: 100px;
+	color: silver;
+	font-family: Quicksand;
+	position: relative;
+}
+#portfolio{
+	position: relative;
+}
+
+#portfolio img{
+	margin-top: 30px;
+	transition: .5s ease;
+	border: 1px solid rgba(0,0,2,.13);
+	border-radius: 8px;
+}
+
+#portfolio img:hover{
+	border: 1px solid silver;
+}
+
+
+/*Hover*/
+
+.content-1{
+	font-family: Quicksand;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.content-1 a{
+	font-size: 18px;
+	display: block;
+	text-align: left;
+	padding: 10px;
+	cursor: pointer;
+	color: white;
+	font-weight: 550;
+}
+
+.content-1 a:hover {
+	color: white;
+}
+
+.overlay{
+	opacity: 	0
+}
+
+#img-1:hover img{
+	opacity: .2
+}
+
+#img-1:hover .overlay{
+	opacity: 1
+}
+
+/*End Hover 1*/
+
+.content-2{
+	font-family: Quicksand;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	font-size: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.content-2 a{
+	font-size: 18px;
+	display: block;
+	text-align: left;
+	padding: 10px;
+	cursor: pointer;
+	color: white;
+	font-weight: 550;
+}
+
+.content-2 a:hover{
+	color: white;
+}
+
+.overlay-2{
+	opacity: 	0
+}
+
+#img-2:hover img{
+	opacity: .2
+}
+
+#img-2:hover .overlay-2{
+	opacity: 1
+}
+/*end hover 2*/
+
+.content-3{
+	font-family: Quicksand;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	font-size: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.content-3 a{
+	font-size: 18px;
+	display: block;
+	text-align: left;
+	padding: 10px;
+	cursor: pointer;
+	color: white;
+	font-weight: 550;
+}
+
+.content-3 a:hover{
+	color: white;
+}
+
+.overlay-3{
+	opacity: 	0
+}
+
+#img-3:hover img{
+	opacity: .2
+}
+
+#img-3:hover .overlay-3{
+	opacity: 1
+}
+
+/*end hover 3*/
+
+.content-4{
+	font-family: Quicksand;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	font-size: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.content-4 a{
+	font-size: 18px;
+	display: block;
+	text-align: left;
+	padding: 10px;
+	cursor: pointer;
+	color: white;
+	font-weight: 550;
+}
+
+.content-4 a:hover{
+	color: white;
+}
+
+.overlay-4{
+	opacity: 	0
+}
+
+#img-4:hover img{
+	opacity: .2
+}
+
+#img-4:hover .overlay-4{
+	opacity: 1
+}
+
+/*end hover 4*/
+
+.content-5{
+	font-family: Quicksand;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	font-size: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.content-5 a{
+	font-size: 18px;
+	display: block;
+	text-align: left;
+	padding: 10px;
+	cursor: pointer;
+	color: white;
+	font-weight: 550;
+}
+
+.content-5 a:hover{
+	color: white;
+}
+
+.overlay-5{
+	opacity: 	0
+}
+
+#img-5:hover img{
+	opacity: .2
+}
+
+#img-5:hover .overlay-5{
+	opacity: 1
+}
+
+/*end hover 5*/
+
+.content-6{
+	font-family: Quicksand;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	font-size: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.content-6 a{
+	font-size: 18px;
+	display: block;
+	text-align: left;
+	padding: 10px;
+	cursor: pointer;
+	color: white;
+	font-weight: 550;
+}
+
+.content-6 a:hover{
+	color: white;
+}
+
+.overlay-6{
+	opacity: 	0
+}
+
+#img-6:hover img{
+	opacity: .2
+}
+
+#img-6:hover .overlay-6{
+	opacity: 1
+}
+
+/*end hover 6*/
+
+
+
+section #more{
+	margin-top: 30px;
+	font-size: 18px;
+	font-family: Quicksand;
+	color: #222626;
+}
+section #more:hover {
+	margin-top: 30px;
+	font-size: 18px;
+	font-family: Quicksand;
+	color: #585d5d;
+	text-decoration: none;
+}
+
+#footer{
+	margin: 90px;
+}
+
+#footer p{
+	font-family: Quicksand;
+	color: silver;
+	padding-top: 20px;
+}
+
+#footer a:hover{
+	text-decoration: none;
+}
+
+#conme p{
+	border: 1px solid silver;
+	padding: 20px;
+	border-radius: 30px;
+	font-size: 13px;
+	color: silver;
+}
+#conme p:hover{
+	border: 1px solid white;
+	color: #fff;
+	padding: 20px;
+	border-radius: 30px;
+	font-size: 13px;
+	background-color: rgba(255,255,255,0.3);
+	text-decoration: none;
+}
+
+#copyright{
+	font-family: Quicksand;
+	padding: 60px 0px 40px;
+	color: #4c5252;
+}
